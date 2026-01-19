@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Home | Sistema de Estoque</title>
+    
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+     <!-- HEADER -->
+  <header class="bg-blue-600 text-white">
+    <div class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">EstoqueApp</h1>
+
+      <!-- NAV -->
+      <nav class="space-x-4">
+        <a href="../index.html" class="hover:underline">Home</a>
+        <a href="estoque.html" class="hover:underline">Estoque</a>
+        <a href="produtos.html" class="hover:underline">Produtos</a>
+        <a href="sobre.html" class="hover:underline">Sobre</a>
+        <a href="login.html" class="bg-white text-blue-600 px-3 py-1 rounded">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto p-6">
+    <section>
+        <h2 class="text-2xl font-semibold mb-4">Estoque</h2>
+        <table class="w-full bg-white rounded shadow">
+            <thead class="bg-gray-200">
+                <tr>
+                    <th class="p-2 text-left">Produtos</th>
+                    <th class="p-2">Quantidade</th>
+                    <th class="p-2">Ações</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="border-t">
+                    <td class="p-2">Arroz</td>
+                    <td class="p-2 text-center">20</td>
+                    <td class="p-2 text-center">
+                        <button class="bg-green-500 text-white px-2 py-1 rounded">+</button>
+                        <button class="bg-red-500 text-white px-2 py-1 rounded">-</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+     <p>&copy; 2026 - EstoqueApp</p>
+  </footer>
+</body>
+</html>
