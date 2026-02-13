@@ -41,12 +41,13 @@ p{
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-escura);
     color: var(--cor-clara);
 }
 .logo h1{
     font-size: 25px;
     cursor: pointer;
+    padding: 10px;
 }
 .logo h1:hover{
     color: var(--cor-segundaria);
@@ -59,8 +60,9 @@ p{
     text-decoration: none;
 }
 .nav-links a{
-    color: var(--cor-clara);
+     padding-top: 10px;
     text-decoration: none;
+    color: var(--cor-clara);
 }
 .nav-links a:hover{
     color: var(--cor-segundaria);
@@ -75,9 +77,40 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--cor-segundaria);
+    background-image: url(../img/bck-hore.jpg);
+    opacity: 0.8;
+    color: var(--cor-clara);
+}
+.hero-content a{
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    color: var(--cor-clara);
+    border: 1px solid var(--cor-clara);
+    border-radius: 10px;
+    padding: 10px 15px;   
+}
+.hero-content a:hover{
+    border: none;
+    font-size: 20px;
+}
+.hero-content  p{
+    padding-bottom: 30px;
+
 }
 
+
+/*Área Sobre*/
+.content-about{
+    display: flex;
+    flex-wrap: wrap;/*Permirte quebra a linha*/
+    gap: 40px;
+    align-items: center;
+}
+.content-text .about-img{
+    flex: 1;
+    min-width: 300px;
+}
 /*Área dos posts*/
 .post-grid{
     display: grid;
