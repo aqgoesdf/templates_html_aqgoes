@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap'); /*Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap'); /*Paragrafos*/
+/*Google Fonte*/
+
+/*Restart*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo Globol*/
+/*Paletas de Cores --> https://coolors.co/palette/01161e-124559-598392-aec3b0-eff6e0*/
+:root{
+    --cor-principal: #124559;
+    --cor-escura: #01161E;
+    --cor-clara: #EFF6E0;
+    --cor-segundaria: #598392;
+    --cor--terciaria: #AEC3B0
+}
+h1, h2, h3{
+     font-family: "Playwrite NZ Basic", cursive;
+     font-weight: bold;
+     letter-spacing: 6px;
+}
+
+p{
+    font-family: "Google Sans", sans-serif; 
+}
+
+/*cabeçalho*/
+.main-header{
+    width: 100%;
+    height: 180px;
+   
+}
