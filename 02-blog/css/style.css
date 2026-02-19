@@ -78,6 +78,8 @@ p{
     align-items: center;
     text-align: center;
     background-image: url(../img/bck-hore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.8;
     color: var(--cor-clara);
 }
@@ -102,6 +104,7 @@ p{
 
 /*Área Sobre*/
 .content-about{
+    height: 100%;
     display: flex;
     flex-wrap: wrap;/*Permirte quebra a linha*/
     gap: 40px;
@@ -110,6 +113,9 @@ p{
 .content-text .about-img{
     flex: 1;
     min-width: 300px;
+}
+.about-img{
+    width: 10px;
 }
 /*Área dos posts*/
 .post-grid{
